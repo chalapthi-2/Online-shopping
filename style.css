@@ -1,0 +1,61 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ h1{
+    text-align: center;
+}
+h2{
+    padding: 10px;
+}
+.onlineshopping{
+    max-width: 800px;
+    margin-top: 100px ;
+    margin-left: 400px;
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px gray;
+
+}
+button{
+    justify-content: center;
+    color:white;
+    background-color: black;
+    font-size: large;
+    border: 2px solid darkorange;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(163, 149, 149);
+    background-color: rgb(27, 36, 65);
+}
+p{
+    font-size: 2rem;
+    font-weight: 300;
+} 
+.products-row{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    margin: 20px;
+
+}
+#feedback{
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+    color: white;
+}
+#total{
+    text-align: right;
+}
